@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 const LiveAgent = () => {
     const initializeChat = () => {
         try {
+            const embeddedservice_bootstrap = window.embeddedservice_bootstrap;
 			embeddedservice_bootstrap.settings.language = 'es_MX'; // For example, enter 'en' or 'en-US'
 
 			embeddedservice_bootstrap.init(
