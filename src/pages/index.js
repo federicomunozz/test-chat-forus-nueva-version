@@ -16,6 +16,8 @@ import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
 import * as styles from './index.module.css';
 import { Link, navigate } from 'gatsby';
 
+import LiveAgent from '../chat/chat';
+
 const IndexPage = () => {
   const newArrivals = generateMockProductData(3, 'shirt');
   const blogData = generateMockBlogData(3);
